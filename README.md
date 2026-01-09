@@ -1,11 +1,11 @@
-# World of Rolex - Premium E-commerce Platform
+ World of Rolex - Premium E-commerce Platform
 
 A luxury watch e-commerce application built with React and Django Rest Framework. This project demonstrates a full-stack premium retail experience with role-based access control, complex ordering systems, and a high-fidelity user interface.
 
 ![Project Banner](https://via.placeholder.com/1200x600.png?text=World+of+Rolex+Preview)
 *(Replace this link with an actual screenshot of your application)*
 
-## 🌟 Key Features
+🌟 Key Features
 
 - **Premium UI/UX**: Custom "Rolex Design System" with smooth animations, sticky layouts, and responsive grids.
 - **Role-Based Access Control (RBAC)**:
@@ -16,9 +16,9 @@ A luxury watch e-commerce application built with React and Django Rest Framework
 - **Secure Authentication**: JWT-based stateless authentication with automatic token refresh.
 - **Responsive Design**: Mobile-first approach ensuring a seamless experience on all devices.
 
-## 🛠 Technology Stack
+🛠 Technology Stack
 
-### Frontend
+Frontend
 - **Framework**: React 19
 - **Build Tool**: Vite
 - **Routing**: React Router v7
@@ -26,14 +26,14 @@ A luxury watch e-commerce application built with React and Django Rest Framework
 - **Styling**: Vanilla CSS (Custom Variables & Modules)
 - **Icons**: Lucide React
 
-### Backend
+ Backend
 - **Framework**: Django 5.0
 - **API**: Django Rest Framework (DRF)
 - **Authentication**: Simple JWT
 - **Database**: SQLite (Development) / PostgreSQL (Production ready)
 - **CORS**: django-cors-headers
 
-## 📂 Project Structure
+ 📂 Project Structure
 
 ```bash
 AI Fullstack/
@@ -53,15 +53,15 @@ AI Fullstack/
 └── README.md               # Documentation
 ```
 
-## 🚀 Getting Started
+ 🚀 Getting Started
 
 Follow these instructions to set up the project locally.
 
-### Prerequisites
+ Prerequisites
 - Node.js (v18+)
 - Python (v3.10+)
 
-### 1. Backend Setup
+ 1. Backend Setup
 
 ```bash
 cd backend
@@ -105,7 +105,7 @@ npm run dev
 
 The application will be served at `http://localhost:5173/`.
 
-## � API Reference
+ � API Reference
 
 Here are the main API endpoints available:
 
@@ -118,15 +118,15 @@ Here are the main API endpoints available:
 | **POST** | `/api/orders/cart/add/` | Add item to cart (Auth required) |
 | **GET** | `/api/orders/cart/` | View current user's cart |
 
-## 📦 Deployment Guide
+ 📦 Deployment Guide
 
-### Production Constraints
+ Production Constraints
 - **Debug Mode**: Ensure `DEBUG = False` in `backend/backend_core/settings.py`.
 - **Secret Key**: Replace the hardcoded secret key with an environment variable.
 - **Allowed Hosts**: Add your domain to `ALLOWED_HOSTS`.
 - **Database**: Switch `DATABASES` setting to use PostgreSQL.
 
-## 🤝 Contributing
+ 🤝 Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements.
 
@@ -136,6 +136,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
 
-*Built with ❤️ by [Your Name]*
